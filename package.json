@@ -8,7 +8,13 @@
 		"pretest": "npm run lint",
 		"prelint": "evalmd README.md",
 		"lint": "eslint .",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "npm run tests-only",
+		"posttest": "npx aud",
+		"tests-only": "es-shim-api --bound && npm run test:shimmed && npm run test:module && npm run test:implementation",
+		"test:implementation": "node test/implementation",
+		"test:shimmed": "node test/shimmed",
+		"test:module": "node test/index",
+		"coverage": "covert test/*.js"
 	},
 	"repository": {
 		"type": "git",
@@ -36,10 +42,16 @@
 		"node": ">= 0.4"
 	},
 	"devDependencies": {
+		"@es-shims/api": "^2.1.2",
 		"@ljharb/eslint-config": "^15.1.0",
+		"covert": "^1.1.1",
 		"eslint": "^6.8.0",
 		"evalmd": "^0.0.19",
-		"safe-publish-latest": "^1.1.4"
+		"function-bind": "^1.1.1",
+		"functions-have-names": "^1.2.0",
+		"has-strict-mode": "^1.0.0",
+		"safe-publish-latest": "^1.1.4",
+		"tape": "^5.0.0-next.3"
 	},
 	"dependencies": {
 		"define-properties": "^1.1.3",
