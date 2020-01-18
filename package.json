@@ -6,6 +6,7 @@
 	"scripts": {
 		"prepublish": "safe-publish-latest",
 		"pretest": "npm run lint",
+		"prelint": "evalmd README.md",
 		"lint": "eslint .",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -37,6 +38,7 @@
 	"devDependencies": {
 		"@ljharb/eslint-config": "^15.1.0",
 		"eslint": "^6.8.0",
+		"evalmd": "^0.0.19",
 		"safe-publish-latest": "^1.1.4"
 	}
 }
