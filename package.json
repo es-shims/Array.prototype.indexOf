@@ -4,6 +4,7 @@
 	"description": "An ES2015 spec-compliant `Array.prototype.indexOf` shim/polyfill/replacement that works as far down as ES3.",
 	"main": "index.js",
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -30,5 +31,8 @@
 	"homepage": "https://github.com/es-shims/Array.prototype.indexOf#readme",
 	"engines": {
 		"node": ">= 0.4"
+	},
+	"devDependencies": {
+		"safe-publish-latest": "^1.1.4"
 	}
 }
