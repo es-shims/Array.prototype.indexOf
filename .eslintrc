@@ -2,4 +2,21 @@
 	"root": true,
 
 	"extends": "@ljharb",
+
+	"rules": {
+		"complexity": [2, 12],
+		"id-length": 0,
+		"max-statements": [2, 40],
+		"new-cap": [2, {
+			"capIsNewExceptions": [
+				"Get",
+				"HasProperty",
+				"RequireObjectCoercible",
+				"ToInteger",
+				"ToLength",
+				"ToObject",
+				"ToString",
+			],
+		}],
+	},
 }
