@@ -1,12 +1,12 @@
 'use strict';
 
-var Get = require('es-abstract/2019/Get');
-var HasProperty = require('es-abstract/2019/HasProperty');
-var ToInteger = require('es-abstract/2019/ToInteger');
-var ToLength = require('es-abstract/2019/ToLength');
-var ToObject = require('es-abstract/2019/ToObject');
-var ToString = require('es-abstract/2019/ToString');
-var callBound = require('es-abstract/helpers/callBound');
+var Get = require('es-abstract/2020/Get');
+var HasProperty = require('es-abstract/2020/HasProperty');
+var ToInteger = require('es-abstract/2020/ToInteger');
+var ToLength = require('es-abstract/2020/ToLength');
+var ToObject = require('es-abstract/2020/ToObject');
+var ToString = require('es-abstract/2020/ToString');
+var callBound = require('call-bind/callBound');
 var isNegativeZero = require('is-negative-zero');
 var isString = require('is-string');
 

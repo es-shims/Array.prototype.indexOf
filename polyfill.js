@@ -1,7 +1,7 @@
 'use strict';
 
-var callBind = require('es-abstract/helpers/callBind');
-var callBound = require('es-abstract/helpers/callBound');
+var callBind = require('call-bind');
+var callBound = require('call-bind/callBound');
 var $indexOf = callBound('Array.prototype.indexOf', true);
 var $arrayIndexOfApply = callBind.apply(Array.prototype.indexOf);
 
