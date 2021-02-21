@@ -1,6 +1,5 @@
 # array.prototype.indexof <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
-[![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -52,9 +51,7 @@ assert.equal([1, 2, 3].indexOf(2), 1);
 Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.org/package/array.prototype.indexof
-[npm-version-svg]: http://versionbadg.es/es-shims/Array.prototype.indexOf.svg
-[travis-svg]: https://travis-ci.org/es-shims/Array.prototype.indexOf.svg
-[travis-url]: https://travis-ci.org/es-shims/Array.prototype.indexOf
+[npm-version-svg]: https://versionbadg.es/es-shims/Array.prototype.indexOf.svg
 [deps-svg]: https://david-dm.org/es-shims/Array.prototype.indexOf.svg
 [deps-url]: https://david-dm.org/es-shims/Array.prototype.indexOf
 [dev-deps-svg]: https://david-dm.org/es-shims/Array.prototype.indexOf/dev-status.svg
