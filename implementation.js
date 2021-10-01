@@ -1,11 +1,11 @@
 'use strict';
 
-var Get = require('es-abstract/2020/Get');
-var HasProperty = require('es-abstract/2020/HasProperty');
-var ToInteger = require('es-abstract/2020/ToInteger');
-var ToLength = require('es-abstract/2020/ToLength');
-var ToObject = require('es-abstract/2020/ToObject');
-var ToString = require('es-abstract/2020/ToString');
+var Get = require('es-abstract/2021/Get');
+var HasProperty = require('es-abstract/2021/HasProperty');
+var ToIntegerOrInfinity = require('es-abstract/2021/ToIntegerOrInfinity');
+var ToLength = require('es-abstract/2021/ToLength');
+var ToObject = require('es-abstract/2021/ToObject');
+var ToString = require('es-abstract/2021/ToString');
 var callBound = require('call-bind/callBound');
 var isNegativeZero = require('is-negative-zero');
 var isString = require('is-string');
@@ -29,7 +29,7 @@ module.exports = function indexOf(searchElement) {
 	if (arguments.length > 1) {
 		fromIndex = arguments[1];
 	}
-	var n = ToInteger(fromIndex);
+	var n = ToIntegerOrInfinity(fromIndex);
 	if (n >= len) {
 		return -1;
 	}

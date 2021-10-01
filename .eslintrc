@@ -12,7 +12,7 @@
 				"Get",
 				"HasProperty",
 				"RequireObjectCoercible",
-				"ToInteger",
+				"ToIntegerOrInfinity",
 				"ToLength",
 				"ToObject",
 				"ToString",
