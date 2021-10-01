@@ -48,7 +48,6 @@
 		"auto-changelog": "^2.3.0",
 		"eslint": "^7.32.0",
 		"evalmd": "^0.0.19",
-		"function-bind": "^1.1.1",
 		"functions-have-names": "^1.2.2",
 		"has-strict-mode": "^1.0.1",
 		"nyc": "^10.3.2",
