@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/Array.prototype.indexOf/compare/v1.0.2...v1.0.3) - 2021-10-01
+
+### Commits
+
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`caef355`](https://github.com/es-shims/Array.prototype.indexOf/commit/caef3551a7c79a64f9b9aa6d052536c283d34d8a)
+- [Deps] update `es-abstract`, `is-string` [`854aa2a`](https://github.com/es-shims/Array.prototype.indexOf/commit/854aa2a71494170f54fa0c10cb0896e8e3dde852)
+- [Dev Deps] use `call-bind` instead of `function-bind` [`eebd1e0`](https://github.com/es-shims/Array.prototype.indexOf/commit/eebd1e033906d0b741a60a784c467e5769b85473)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `aud`, `auto-changelog`, `tape` [`8d8a37e`](https://github.com/es-shims/Array.prototype.indexOf/commit/8d8a37e8c9524fbbe1dd0563277f188b76497946)
+- [readme] add github actions/codecov badges [`6c9b5bf`](https://github.com/es-shims/Array.prototype.indexOf/commit/6c9b5bfd15e344198f1155b77c3ff9ee6894a294)
+- [Dev Deps] update `eslint`, `tape` [`e03b76e`](https://github.com/es-shims/Array.prototype.indexOf/commit/e03b76e3be3e40c4b0a15b79da4f1bf12c5f4e98)
+- [meta] use `prepublishOnly`, for npm 7+ [`7ac81d3`](https://github.com/es-shims/Array.prototype.indexOf/commit/7ac81d35d8e823adfb31a2ecdc713056df703556)
+- [Deps] update `es-abstract` [`476f149`](https://github.com/es-shims/Array.prototype.indexOf/commit/476f149db0d43cc7f90d51f4d37a0b0f35ea11e4)
+
 ## [v1.0.2](https://github.com/es-shims/Array.prototype.indexOf/compare/v1.0.1...v1.0.2) - 2021-02-21
 
 ### Commits
