@@ -4,9 +4,7 @@
 	"extends": "@ljharb",
 
 	"rules": {
-		"complexity": [2, 12],
 		"id-length": 0,
-		"max-statements": [2, 40],
 		"new-cap": [2, {
 			"capIsNewExceptions": [
 				"Get",
@@ -17,6 +15,9 @@
 				"ToObject",
 				"ToString",
 			],
+		}],
+		"no-magic-numbers": [1, {
+			"ignore": [-1, 0, 1],
 		}],
 	},
 }
