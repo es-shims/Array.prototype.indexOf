@@ -10,9 +10,9 @@
 			"capIsNewExceptions": [
 				"Get",
 				"HasProperty",
+				"LengthOfArrayLike",
 				"RequireObjectCoercible",
 				"ToIntegerOrInfinity",
-				"ToLength",
 				"ToObject",
 				"ToString",
 			],

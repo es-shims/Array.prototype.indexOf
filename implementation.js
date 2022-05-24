@@ -2,8 +2,8 @@
 
 var Get = require('es-abstract/2021/Get');
 var HasProperty = require('es-abstract/2021/HasProperty');
+var LengthOfArrayLike = require('es-abstract/2021/LengthOfArrayLike');
 var ToIntegerOrInfinity = require('es-abstract/2021/ToIntegerOrInfinity');
-var ToLength = require('es-abstract/2021/ToLength');
 var ToObject = require('es-abstract/2021/ToObject');
 var ToString = require('es-abstract/2021/ToString');
 var callBound = require('call-bind/callBound');
@@ -19,7 +19,7 @@ var $split = callBound('String.prototype.split');
 module.exports = function indexOf(searchElement) {
 	var OO = ToObject(this);
 	var O = splitString && isString(OO) ? $split(OO, '') : OO;
-	var len = ToLength(Get(O, 'length'));
+	var len = LengthOfArrayLike(O, 'length');
 
 	if (len === 0) {
 		return -1;
