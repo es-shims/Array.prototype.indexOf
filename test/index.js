@@ -1,18 +1,17 @@
 'use strict';
 
-var indexOf = require('..');
-var callBind = require('call-bind');
+var index = require('../');
 var test = require('tape');
 var runTests = require('./tests');
 
 test('as a function', function (t) {
-	t.test('bad array/this value', function (st) {
-		st['throws'](callBind(indexOf, null, undefined, 'a'), TypeError, 'undefined is not an object');
-		st['throws'](callBind(indexOf, null, null, 'a'), TypeError, 'null is not an object');
+	t.test('bad array', function (st) {
+		st['throws'](function () { index(undefined, 'a'); }, TypeError, 'undefined is not an object');
+		st['throws'](function () { index(null, 'a'); }, TypeError, 'null is not an object');
 		st.end();
 	});
 
-	runTests(indexOf, t);
+	runTests(index, t);
 
 	t.end();
 });

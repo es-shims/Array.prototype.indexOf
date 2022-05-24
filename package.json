@@ -61,6 +61,9 @@
 		"is-negative-zero": "^2.0.2",
 		"is-string": "^1.0.7"
 	},
+	"testling": {
+		"files": "test/**/*.js"
+	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
 		"template": "keepachangelog",

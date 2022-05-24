@@ -5,6 +5,7 @@
 
 	"rules": {
 		"id-length": 0,
+		"multiline-comment-style": "off",
 		"new-cap": [2, {
 			"capIsNewExceptions": [
 				"Get",
