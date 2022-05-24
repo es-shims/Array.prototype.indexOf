@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/Array.prototype.indexOf/compare/v1.0.3...v1.0.4) - 2022-05-24
+
+### Commits
+
+- [actions] reuse common workflows [`af13e9e`](https://github.com/es-shims/Array.prototype.indexOf/commit/af13e9e68aef9bf699f903ccaf946cead1ae24e1)
+- [meta] use `npmignore` to autogenerate an npmignore file [`0df70cf`](https://github.com/es-shims/Array.prototype.indexOf/commit/0df70cfc0e5d5256870714c2ad21bd4fff328b4f)
+- [Tests] more accurate tests [`6716f45`](https://github.com/es-shims/Array.prototype.indexOf/commit/6716f457aecff21da0ea56f9fa9fded25643f306)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `safe-publish-latest`, `tape` [`465819c`](https://github.com/es-shims/Array.prototype.indexOf/commit/465819cfdf959167ccf8d118483952953b56fc66)
+- [Refactor] update implementation to use `LengthOfArrayLike` [`1b62a3e`](https://github.com/es-shims/Array.prototype.indexOf/commit/1b62a3e8e2e8b3954bd96f94c61ff400a725093b)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `functions-have-names`, `tape` [`a47cb21`](https://github.com/es-shims/Array.prototype.indexOf/commit/a47cb2153fd3f0e3ce5e1c1ba43c0f4beb18064c)
+- [actions] update codecov uploader [`7309c25`](https://github.com/es-shims/Array.prototype.indexOf/commit/7309c2560a58df24108f97d6b350a26757b02f92)
+- [Deps] update `define-properties`, `es-abstract` [`e17b09f`](https://github.com/es-shims/Array.prototype.indexOf/commit/e17b09f0a3396afa3dd4a2d47104f6308374d8ac)
+- [Deps] update `es-abstract`, `is-negative-zero` [`dd65c04`](https://github.com/es-shims/Array.prototype.indexOf/commit/dd65c0442ab26d6a25091142f08fba12f02b3ba6)
+
 ## [v1.0.3](https://github.com/es-shims/Array.prototype.indexOf/compare/v1.0.2...v1.0.3) - 2021-10-01
 
 ### Commits
