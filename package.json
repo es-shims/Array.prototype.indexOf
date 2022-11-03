@@ -60,7 +60,7 @@
 	"dependencies": {
 		"call-bind": "^1.0.2",
 		"define-properties": "^1.1.4",
-		"es-abstract": "^1.20.1",
+		"es-abstract": "^1.20.4",
 		"is-negative-zero": "^2.0.2",
 		"is-string": "^1.0.7"
 	},
