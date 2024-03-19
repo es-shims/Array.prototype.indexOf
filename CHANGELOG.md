@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.7](https://github.com/es-shims/Array.prototype.indexOf/compare/v1.0.6...v1.0.7) - 2024-03-18
+
+### Commits
+
+- [Deps] update `call-bind`, `define-properties`, `es-abstract`, `is-negative-zero` [`162105b`](https://github.com/es-shims/Array.prototype.indexOf/commit/162105b56fba0bc4c64cae1bb8f648e20f1429ae)
+- [actions] remove redundant finisher [`919a937`](https://github.com/es-shims/Array.prototype.indexOf/commit/919a937bf0790d45bbf9c2e9ccd549cbf6319ad2)
+- [Refactor] use `es-object-atoms` where possible [`fe30f76`](https://github.com/es-shims/Array.prototype.indexOf/commit/fe30f7658ceafb8fd3037c65cbb8f256877bd998)
+- [Dev Deps] update `aud`, `npmignore`, `tape` [`a7b2836`](https://github.com/es-shims/Array.prototype.indexOf/commit/a7b2836f4e152d1dd2f1c9bf25b461544189a4f9)
+
 ## [v1.0.6](https://github.com/es-shims/Array.prototype.indexOf/compare/v1.0.5...v1.0.6) - 2023-09-05
 
 ### Commits
