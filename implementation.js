@@ -7,7 +7,7 @@ var ToIntegerOrInfinity = require('es-abstract/2024/ToIntegerOrInfinity');
 var ToObject = require('es-object-atoms/ToObject');
 var ToString = require('es-abstract/2024/ToString');
 
-var callBound = require('call-bind/callBound');
+var callBound = require('call-bound');
 var isNegativeZero = require('is-negative-zero');
 var isString = require('is-string');
 var $Object = require('es-object-atoms');
